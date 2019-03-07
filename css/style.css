@@ -1,0 +1,490 @@
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* GLOBAL */
+
+._05 {
+    line-height:0.5em;
+} 
+._12 {
+    line-height:1.2em;
+}
+
+.red-text {
+	color:#df0000 !important;
+}
+
+.aka {
+	font-size: 12px;
+	font-family: 'Varela';
+	font-weight: 1000;
+	color:#aaa;
+}
+
+.ptext {
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  letter-spacing:6px;
+  text-transform:uppercase;
+}
+
+body, html{
+  height:100%;
+  font-size:16px;
+  font-family:"Lato", sans-serif;
+  font-weight:400;
+  line-height:1.8em;
+  color:#666;
+}
+
+/* BACKGROUND IMAGES */
+
+.pimg1, .pimg2, .pimg3{
+  position:relative;
+  opacity:1;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  /*
+    fixed -> parallax effect
+    scroll -> normal
+  */
+  background-attachment:fixed;
+}
+
+.pimg1{
+  background-image:url('../img/Abs0lut3Pwn4g3.png');
+  min-height:100%;
+}
+
+.pimg2{
+  background-image:url('../img/encryptCTFMaster.png');
+  min-height:200px;
+  background-attachment:scroll;
+}
+
+.pimg3{
+  background-image:url('../img/encryptCTF1080.png');
+  min-height:600px;
+}
+
+
+/* HEADER / NAVBAR */
+
+
+header{
+  display: none;
+  background-color: #000;
+  width: 100%;
+  overflow:hidden;
+  position:fixed;
+  z-index: 999;
+  padding: 10px 0px;
+  min-height:20px;
+  font-family: 'Varela';
+}
+
+header img {
+  height:25px;
+  width: 180px;
+}
+
+header a{
+  color: #fff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float:left;
+  margin:10px;
+}
+
+header nav{
+  float:right;
+  margin:10px;
+}
+
+header a:hover{
+  color:#df0000;
+}
+
+/* SECTIONS */
+
+.section{
+  text-align:center;
+  padding:35px 80px;
+}
+
+.section-light{
+  background-color:#f4f4f4;
+  color:#666;
+}
+
+.section-dark{
+  background-color:#282e34;
+  color:#ddd;
+}
+
+.section h2{
+	padding-bottom: 10px; 
+	margin-left:-25px;
+}
+
+#glitch-text-main {
+	color:#666;
+	position:absolute;
+	text-align:center;
+	width:100%;
+	font-size:20px;
+	top:75%;
+	letter-spacing:4px;
+	font-family: 'Varela';
+}
+
+a.register-btn, a.register-btn:link, a.register-btn:visited, a.register-btn:active {
+  font-size:24px;
+  position: relative;
+  top: 140px;
+  text-decoration:none;
+  border: 2px solid white;
+  padding:15px;
+  color:white;
+}
+
+a.register-btn:hover{
+  border: 2px solid black;
+  background-color: white;
+  color:black;
+}
+
+/* Boxes */
+
+#boxes-container-whoweare, #boxes-container-whatwedo{
+  width: 100% !important;
+  display: flex;
+  flex-wrap: wrap;
+  overflow:hidden;
+}
+
+#boxes-container-whoweare .box{
+  width:18%; 
+  padding:10px;
+  overflow:hidden;
+}
+
+#boxes-container-whoweare a{
+  text-decoration: none;
+}
+
+#boxes-container-whoweare i{
+  color: white;
+  padding: 10px 5px;
+}
+
+#boxes-container-whatwedo .box{
+  width:30%; 
+  padding:10px;
+}
+
+.box img{
+  width:90px;
+}
+
+/* SOCIAL MEDIA */
+
+#socialmedia-container {
+	position: relative;
+	width: 100%;
+	padding-top: 60px;
+	text-align: center;
+	font-size: 50px;
+}
+
+#socialmedia-container i {
+	color: #df0000;
+	padding: 0 50px;
+}
+
+#socialmedia-container a{
+	text-decoration: none;
+}
+
+/* Media Queries */
+
+@media(max-width:568px){
+  body, html{
+    font-size:12px;
+    line-height:1.2em;
+  }
+
+  header {
+    padding: 5px;
+  }
+
+  header img {
+    height:20px;
+    width: 170px;
+  }
+
+  header a {
+    font-size: 10px; 
+  } 
+
+  header li {
+    padding: 0 7px 0 7px;
+  }
+
+  header #branding{
+    float:left;
+    margin:5px;
+  }
+
+  header nav{
+    float:right;
+    margin:5px;
+  }
+  
+  .pimg1, .pimg2, .pimg3{
+    background-attachment: scroll;
+  }
+
+  .pimg1 {
+  	min-height: 350px;
+  }
+
+  .pimg2 {
+  	min-height: 150px;
+  }
+
+  .pimg3{
+  	min-height: 200px;
+  }
+
+  #glitch-text-main{
+  	font-size: 16px;
+  }
+
+  .glitch:after {
+  	left:5px !important;
+  }
+
+  .section {
+  	padding: 20px 30px;
+  }
+
+  .section h2{
+	padding-top: -10px;
+	margin-left:0;
+}
+
+  #socialmedia-container i {
+	padding: 0 4vw;
+  } 
+
+  #socialmedia-container {
+	padding-top: 50px;
+	text-align: center;
+	font-size: 30px;
+  }
+
+  a.register-btn, a.register-btn:link, a.register-btn:visited, a.register-btn:active {
+    font-size:12px;
+    position: relative;
+    top: 60px;
+    text-decoration:none;
+    border: 1.5px solid white;
+    padding:10px;
+    color:white;
+  }
+
+  #boxes-container-whoweare .box{
+    width:45%; 
+    padding:5px;
+    overflow:hidden;
+  }
+
+  #boxes-container-whatwedo .box{
+    width:28%; 
+    padding:5px;
+  }
+
+  .box img{
+    width:60px;
+  }
+}
+
+
+/* GLITCH */
+    
+.glitch {
+  position: relative;
+}
+
+.glitch:after {
+  animation: glitch-animation 2s infinite linear alternate-reverse;
+  background: black;
+  clip: rect( 0, 900px, 0, 0 );
+  color: white;
+  content: attr( data-text );
+  overflow: hidden;
+  position: absolute;
+  text-shadow: -1px 0 red;
+  left: 330px;
+}
+
+.glitch:before {
+  animation: glitch-animation-2 3s infinite linear alternate-reverse;
+  background: black;
+  clip: rect( 0, 900px, 0, 0 );
+  color: white;
+  content: attr( data-text );
+  overflow: hidden;
+  position: absolute;
+  text-shadow: 1px 0 blue;
+}
+
+/* Expanded Animations */
+@keyframes glitch-animation {
+  0% {
+    clip: rect(42px, 9999px, 44px, 0);
+  }
+  5% {
+    clip: rect(12px, 9999px, 59px, 0);
+  }
+  10% {
+    clip: rect(48px, 9999px, 29px, 0);
+  }
+  15.0% {
+    clip: rect(42px, 9999px, 73px, 0);
+  }
+  20% {
+    clip: rect(63px, 9999px, 27px, 0);
+  }
+  25% {
+    clip: rect(34px, 9999px, 55px, 0);
+  }
+  30.0% {
+    clip: rect(86px, 9999px, 73px, 0);
+  }
+  35% {
+    clip: rect(20px, 9999px, 20px, 0);
+  }
+  40% {
+    clip: rect(26px, 9999px, 60px, 0);
+  }
+  45% {
+    clip: rect(25px, 9999px, 66px, 0);
+  }
+  50% {
+    clip: rect(57px, 9999px, 98px, 0);
+  }
+  55.0% {
+    clip: rect(5px, 9999px, 46px, 0);
+  }
+  60.0% {
+    clip: rect(82px, 9999px, 31px, 0);
+  }
+  65% {
+    clip: rect(54px, 9999px, 27px, 0);
+  }
+  70% {
+    clip: rect(28px, 9999px, 99px, 0);
+  }
+  75% {
+    clip: rect(45px, 9999px, 69px, 0);
+  }
+  80% {
+    clip: rect(23px, 9999px, 85px, 0);
+  }
+  85.0% {
+    clip: rect(54px, 9999px, 84px, 0);
+  }
+  90% {
+    clip: rect(45px, 9999px, 47px, 0);
+  }
+  95% {
+    clip: rect(37px, 9999px, 20px, 0);
+  }
+  100% {
+    clip: rect(4px, 9999px, 91px, 0);
+  }
+}
+@keyframes glitch-animation-2 {
+  0% {
+    clip: rect(65px, 9999px, 100px, 0);
+  }
+  5% {
+    clip: rect(52px, 9999px, 74px, 0);
+  }
+  10% {
+    clip: rect(79px, 9999px, 85px, 0);
+  }
+  15.0% {
+    clip: rect(75px, 9999px, 5px, 0);
+  }
+  20% {
+    clip: rect(67px, 9999px, 61px, 0);
+  }
+  25% {
+    clip: rect(14px, 9999px, 79px, 0);
+  }
+  30.0% {
+    clip: rect(1px, 9999px, 66px, 0);
+  }
+  35% {
+    clip: rect(86px, 9999px, 30px, 0);
+  }
+  40% {
+    clip: rect(23px, 9999px, 98px, 0);
+  }
+  45% {
+    clip: rect(85px, 9999px, 72px, 0);
+  }
+  50% {
+    clip: rect(71px, 9999px, 75px, 0);
+  }
+  55.0% {
+    clip: rect(2px, 9999px, 48px, 0);
+  }
+  60.0% {
+    clip: rect(30px, 9999px, 16px, 0);
+  }
+  65% {
+    clip: rect(59px, 9999px, 50px, 0);
+  }
+  70% {
+    clip: rect(41px, 9999px, 62px, 0);
+  }
+  75% {
+    clip: rect(2px, 9999px, 82px, 0);
+  }
+  80% {
+    clip: rect(47px, 9999px, 73px, 0);
+  }
+  85.0% {
+    clip: rect(3px, 9999px, 27px, 0);
+  }
+  90% {
+    clip: rect(26px, 9999px, 55px, 0);
+  }
+  95% {
+    clip: rect(42px, 9999px, 97px, 0);
+  }
+  100% {
+    clip: rect(38px, 9999px, 49px, 0);
+  }
+}
