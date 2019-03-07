@@ -66,7 +66,6 @@ body, html{
 .pimg2{
   background-image:url('../img/encryptCTFMaster.png');
   min-height:200px;
-  background-attachment:scroll;
 }
 
 .pimg3{
