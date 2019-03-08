@@ -88,16 +88,19 @@ header{
   font-family: 'Varela';
 }
 
+header #branding{
+  float:left;
+  margin:10px;
+}
+
 header img {
   height:20px;
   width:160px;
 }
 
-header a{
-  color: #fff;
-  text-decoration:none;
-  text-transform: uppercase;
-  font-size:16px;
+header nav {
+  float:right;
+  margin:10px;
 }
 
 header li{
@@ -106,14 +109,11 @@ header li{
   padding: 0 20px 0 20px;
 }
 
-header #branding{
-  float:left;
-  margin:10px;
-}
-
-header nav {
-  float:right;
-  margin:10px;
+header a{
+  color: #fff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
 }
 
 header a:hover{
@@ -250,28 +250,28 @@ a.register-btn:hover{
 
   header {
     padding: 5px;
-    min-height: 5px;
+    min-height: 10px;
   }
 
   header img {
     height:15px;
-    width: 140px;
+    width: 135px;
   }
 
   header a {
-    font-size: 7px; 
+    font-size: 10px; 
   } 
 
   header li {
-    padding: 0 4px 0 4px;
+    padding: 0 3px 0 3px;
   }
 
   header #branding{
-    margin:5px;
+    margin:0px 0px 0px 5px;
   }
 
   header nav {
-    margin:5px;
+    margin:0px 5px 0px 0px;
   }
   
   .pimg1, .pimg2, .pimg3{
