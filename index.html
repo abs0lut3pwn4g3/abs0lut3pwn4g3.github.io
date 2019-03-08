@@ -17,26 +17,25 @@
   <link href='https://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <script>
+    window.onscroll = () => {
+        if (window.scrollY > 0) {
+            document.querySelector('header').style.display = 'block';
+        } else {
+            document.querySelector('header').style.display = 'none';
+        }
+    };
+    </script>
 </head>
 <body>
   <header>
-  	<script>
-        window.onscroll = () => {
-            if (window.scrollY > 0) {
-                document.querySelector('header').style.display = 'block';
-            } else {
-                document.querySelector('header').style.display = 'none';
-            }
-        };
-    </script>
   	<div id="navbar">
       <div id="branding"><img src="img/Abs0lut3Pwn4g3_cropped.png"></div>
       <nav>
         <ul>
-          <li><a href="#boxes-container-whoweare">Who we are</a></li>
           <li><a target="_blank" href="https://www.abs0lut3pwn4g3.cf/writeups/">CTF Writeups</a></li>
-          <li><a href="#EncryptCTF">EncryptCTF</a></li>
-          <li><a href="#socialmedia-container">Contact us</a></li>
+          <li><a href="#EncryptCTF">EncryptCTF 2019</a></li>
+          <li><a href="#socialmedia-container">About us</a></li>
         </ul>
       </nav>
     </div>
@@ -49,7 +48,7 @@
 
   <section class="section section-dark">
     <h2>Not just another CTF team</h2>
-    <p>Abs0lut3Pwn4g3 is a group of New Delhi based passionate hackers. We are all about modern day computer and information security. Focused on domains like Advanced Cryptography, Forensic Analysis, Reverse Engineering, Web Penetration Testing and Binary Analysis. We participate in (and conduct) Capture The Flag Competitions.</p>
+    <p>Abs0lut3Pwn4g3 is a group of developers and passionate hackers. We are all about modern day computer and information security. Focused on domains like Advanced Cryptography, Forensic Analysis, Reverse Engineering, Web Penetration Testing and Binary Analysis. We participate in (and conduct) Capture The Flag Competitions.</p>
   </section>
 
   <div class="pimg2">
@@ -65,6 +64,10 @@
 	    <!--CTFtime.org -->
 	    <a target="_blank" href="https://ctftime.org/team/72103">
 	      <i class="fa fa-terminal fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+	    </a>
+	    <!-- Majorleaguecyber.org -->
+	    <a id="majorleaguecyber" target="_blank" href="https://www.majorleaguecyber.org/t/Abs0lut3Pwn4g3">
+	    	<img alt="majorleaguecyber.org" src="img/majorleaguecyber.png">
 	    </a>
 	</div>
   </div>
@@ -88,7 +91,7 @@
 			<img src="./img/mostwanted002.jpeg">
 			<h4 class="_05">Mayank Malik</h4>
 			<span class="aka _05">aka</span>
-			<h5 data-text="MostWanted002" class="glitch red-text _12">MostWanted002</h5>
+			<h5 data-text="mostwanted002" class="glitch red-text _12">mostwanted002</h5>
 			<a target="_blank" href="https://twitter.com/mostwanted002_">
 				<i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
 			</a>
@@ -97,7 +100,7 @@
 			</a>
         </div>
         <div class="box">
-			<img src="./img/maskofmydisguise.jpg">
+			<img style="height:95px;width:125px;" src="./img/maskofmydisguise.jpg">
 			<h4 class="_05">Eshaan Bansal</h4>
 			<span class="aka _05">aka</span>
 			<h5 data-text="maskofmydisguise" class="glitch red-text _12">maskofmydisguise</h5>
@@ -131,6 +134,13 @@
 		    <a target="_blank" href="https://github.com/yashanand">
 		    	<i class="fab fa-github fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
 		    </a>
+        </div>
+        <div class="box">
+			<img src="./img/robyn12.png">
+			<h5 data-text="Robyn12" class="glitch red-text _12">Robyn12</h5>
+			<a target="_blank" href="https://github.com/robyn12">
+				<i class="fab fa-github fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+			</a>
         </div>
     </section>
 
