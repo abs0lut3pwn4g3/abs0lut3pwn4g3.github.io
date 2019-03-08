@@ -180,7 +180,7 @@ a.register-btn:hover{
 
 #boxes-container-whoweare .box{
   width:25%; 
-  padding:10px;
+  padding:5px;
   overflow:hidden;
 }
 
@@ -190,7 +190,7 @@ a.register-btn:hover{
 
 #boxes-container-whoweare i{
   color: white;
-  padding: 10px 5px;
+  padding: 5px 0px;
 }
 
 #boxes-container-whatwedo .box{
@@ -198,8 +198,13 @@ a.register-btn:hover{
   padding:10px;
 }
 
-.box img{
+#boxes-container-whatwedo .box img{
   width:90px;
+}
+
+#boxes-container-whoweare .box img{
+  width:100px;
+  height: 100px;
 }
 
 /* SOCIAL MEDIA */
@@ -228,7 +233,7 @@ a.register-btn:hover{
   opacity: 0.6;
 }
 
-#majorleaguecyber img{
+#socialmedia-container #majorleaguecyber img{
   margin-top: -10px;
   height:100px;
   width:100px;
@@ -310,7 +315,7 @@ a.register-btn:hover{
     padding: 0 10px;
   }
 
-  #majorleaguecyber img {
+  #socialmedia-container #majorleaguecyber img {
     height:50px;
     width:50px;
   }
