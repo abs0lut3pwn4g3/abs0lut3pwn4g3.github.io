@@ -186,11 +186,12 @@ a.register-btn:hover{
 
 #boxes-container-whoweare a{
   text-decoration: none;
+  padding: 3px;
 }
 
-#boxes-container-whoweare i{
+#boxes-container-whoweare .box i{
   color: white;
-  padding: 5px 0px;
+  padding-top: 5px; 
 }
 
 #boxes-container-whatwedo .box{
