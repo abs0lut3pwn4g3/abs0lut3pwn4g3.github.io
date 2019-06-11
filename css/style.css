@@ -372,7 +372,12 @@ a.register-btn:hover{
 /* GLITCH */
   
 #boxes-container-whoweare .box .glitch:after {
-  left: -0.5rem !important;
+  animation: glitch-animation 0.5s infinite linear alternate-reverse !important;
+}
+
+#boxes-container-whoweare .box .glitch:before {
+  animation: glitch-animation-2 1.5s infinite linear alternate-reverse !important;
+  left: 3rem !important;
 }
 
 .glitch {
