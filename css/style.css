@@ -370,7 +370,11 @@ a.register-btn:hover{
 
 
 /* GLITCH */
-    
+  
+#boxes-container-whoweare .box .glitch:after {
+  left: -0.5rem !important;
+}
+
 .glitch {
   position: relative;
 }
