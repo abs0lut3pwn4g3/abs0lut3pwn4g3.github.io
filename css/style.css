@@ -13,7 +13,7 @@
 }
 
 .red-text {
-	color:#df0000 !important;
+	color:#ce1b28 !important;
 }
 
 .aka {
@@ -117,7 +117,7 @@ header a{
 }
 
 header a:hover{
-  color:#df0000;
+  color:#ce1b28;
 }
 
 /* SECTIONS */
@@ -170,6 +170,8 @@ a.register-btn:hover{
 
 /* Boxes */
 
+/* Who We Are - Section */ 
+
 #boxes-container-whoweare, #boxes-container-whatwedo{
   width: 100% !important;
   display: flex;
@@ -193,21 +195,38 @@ a.register-btn:hover{
 #boxes-container-whoweare .box i{
   color: white;
   padding-top: 5px; 
+  font-size: 1.75rem;
 }
 
-#boxes-container-whatwedo .box{
-  width:30%; 
-  padding:10px;
-}
-
-#boxes-container-whatwedo .box img{
-  width:90px;
+#boxes-container-whoweare .box i:hover {
+  color: #ae1b28;
 }
 
 #boxes-container-whoweare .box img{
   width:100px;
   height: 100px;
 }
+
+/* What We Do - Section */ 
+
+#boxes-container-whatwedo .box{
+  width:30%; 
+  padding:10px;
+}
+
+#boxes-container-whatwedo .box a {
+  color: inherit;
+}
+
+#boxes-container-whatwedo .box a:hover {
+  color: #ce1b28;
+  text-decoration: none;
+}
+
+#boxes-container-whatwedo .box img{
+  width:90px;
+}
+
 
 /* SOCIAL MEDIA */
 
@@ -222,7 +241,7 @@ a.register-btn:hover{
 }
 
 #socialmedia-container i {
-	color: #df0000;
+	color: #ce1b28;
 }
 
 #socialmedia-container a{
