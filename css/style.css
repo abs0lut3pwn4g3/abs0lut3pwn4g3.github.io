@@ -68,10 +68,10 @@ body, html{
 }
 
 .pimg3{
-  background-image:url('../img/RootersCTF.png');
-  min-height:600px;
+  background: #000;;
+  min-height:300px;
 }
-
+canvas {display: block;}
 
 /* HEADER / NAVBAR */
 
